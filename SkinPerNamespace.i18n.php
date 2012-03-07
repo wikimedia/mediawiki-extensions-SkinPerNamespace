@@ -102,3 +102,10 @@ $messages['pl'] = array(
 	'skinpernamespace-desc' => 'Umożliwia nakładanie skórek na pojedynczą przestrzeń nazw',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'skinpernamespace-desc' => 'A përmëtt na pel për spassi nominal',
+);
+
