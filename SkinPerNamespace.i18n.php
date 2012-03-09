@@ -38,6 +38,13 @@ $messages['dsb'] = array(
 	'skinpernamespace-desc' => 'Zmóžnja wužywarski powjerch specifiski za mjenjowy rum',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'skinpernamespace-desc' => 'Permite asignar una apariencia (skin) a cada espacio de nombres',
+);
+
 /** French (Français)
  * @author Gomoko
  */
