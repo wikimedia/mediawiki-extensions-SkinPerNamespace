@@ -17,6 +17,13 @@ $messages['qqq'] = array(
 	'skinpernamespace-desc' => '{{desc}}',
 );
 
+/** Asturian (Asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'skinpernamespace-desc' => 'Permite tener un aspeutu pa cada espaciu de nomes',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
