@@ -87,6 +87,13 @@ $messages['ia'] = array(
 	'skinpernamespace-desc' => 'Permitte assignar un apparentia a cata spatio de nomines',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'skinpernamespace-desc' => '名前空間ごとの外装を許可する',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
