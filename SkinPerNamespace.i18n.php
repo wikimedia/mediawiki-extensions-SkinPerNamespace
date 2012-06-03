@@ -87,7 +87,7 @@ $messages['ia'] = array(
 	'skinpernamespace-desc' => 'Permitte assignar un apparentia a cata spatio de nomines',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
