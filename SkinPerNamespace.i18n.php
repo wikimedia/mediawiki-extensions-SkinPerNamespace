@@ -101,6 +101,13 @@ $messages['ja'] = array(
 	'skinpernamespace-desc' => '名前空間ごとの外装を許可する',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'skinpernamespace-desc' => 'Maad en eije Ovverfläsch för jeedes Appachtemang müjjelesch.',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */
