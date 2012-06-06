@@ -101,6 +101,13 @@ $messages['ja'] = array(
 	'skinpernamespace-desc' => '名前空間ごとの外装を許可する',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'skinpernamespace-desc' => '이름공간마다 스킨 허용',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
