@@ -98,7 +98,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'skinpernamespace-desc' => '名前空間ごとの外装を許可する',
+	'skinpernamespace-desc' => '名前空間ごとに外装を設定できるようにする',
 );
 
 /** Korean (한국어)
