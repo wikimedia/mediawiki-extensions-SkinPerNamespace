@@ -151,3 +151,10 @@ $messages['pms'] = array(
 	'skinpernamespace-desc' => 'A përmëtt na pel për spassi nominal',
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'skinpernamespace-desc' => "Nagpapahintulot ng isang pabalat na pambawa't puwang ng pangalan",
+);
+
