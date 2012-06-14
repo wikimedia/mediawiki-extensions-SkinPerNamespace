@@ -17,7 +17,7 @@ $messages['qqq'] = array(
 	'skinpernamespace-desc' => '{{desc}}',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -45,14 +45,14 @@ $messages['dsb'] = array(
 	'skinpernamespace-desc' => 'Zmóžnja wužywarski powjerch specifiski za mjenjowy rum',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
 	'skinpernamespace-desc' => 'Permite asignar una apariencia (skin) a cada espacio de nombres',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -80,7 +80,7 @@ $messages['hsb'] = array(
 	'skinpernamespace-desc' => 'Zmóžnja wužiwarski powjerch specifiski za mjenowy rum',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -122,7 +122,7 @@ $messages['lb'] = array(
 	'skinpernamespace-desc' => 'Erméiglecht et een Ausgesinn (skin) pro Nummraum ze benotzen',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -137,7 +137,7 @@ $messages['nl'] = array(
 	'skinpernamespace-desc' => 'Maakt een vormgeving per naamruimte mogelijk',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
