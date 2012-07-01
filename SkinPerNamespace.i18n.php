@@ -24,7 +24,7 @@ $messages['ast'] = array(
 	'skinpernamespace-desc' => 'Permite tener un aspeutu pa cada espaciu de nomes',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -38,7 +38,7 @@ $messages['de'] = array(
 	'skinpernamespace-desc' => 'Ermöglicht eine namensraumspezifische Benutzeroberfläche',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -59,7 +59,7 @@ $messages['fr'] = array(
 	'skinpernamespace-desc' => 'Permet un habillage par espace de noms',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -73,7 +73,7 @@ $messages['he'] = array(
 	'skinpernamespace-desc' => 'אפשרות להגדיר עיצוב נפרד לכל מרחב שם',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
