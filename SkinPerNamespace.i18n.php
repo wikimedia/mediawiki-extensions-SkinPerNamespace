@@ -24,7 +24,7 @@ $messages['ast'] = array(
 	'skinpernamespace-desc' => 'Permite tener un aspeutu pa cada espaciu de nomes',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
