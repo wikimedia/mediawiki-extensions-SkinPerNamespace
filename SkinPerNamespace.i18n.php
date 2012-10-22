@@ -12,7 +12,8 @@ $messages['en'] = array(
 	'skinpernamespace-desc' => 'Allows a per-namespace skin',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'skinpernamespace-desc' => '{{desc}}',
 );
@@ -157,4 +158,3 @@ $messages['pms'] = array(
 $messages['tl'] = array(
 	'skinpernamespace-desc' => "Nagpapahintulot ng isang pabalat na pambawa't puwang ng pangalan",
 );
-
