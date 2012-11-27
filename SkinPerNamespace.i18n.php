@@ -158,3 +158,10 @@ $messages['pms'] = array(
 $messages['tl'] = array(
 	'skinpernamespace-desc' => "Nagpapahintulot ng isang pabalat na pambawa't puwang ng pangalan",
 );
+
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'skinpernamespace-desc' => 'Дозволяє обирати окремі оформлення для просторів назв',
+);
