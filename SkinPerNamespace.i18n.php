@@ -53,6 +53,13 @@ $messages['es'] = array(
 	'skinpernamespace-desc' => 'Permite asignar una apariencia (skin) a cada espacio de nombres',
 );
 
+/** Finnish (suomi)
+ * @author Nedergard
+ */
+$messages['fi'] = array(
+	'skinpernamespace-desc' => 'Mahdollistaa nimiavaruuskohtaisen ulkoasun',
+);
+
 /** French (français)
  * @author Gomoko
  */
