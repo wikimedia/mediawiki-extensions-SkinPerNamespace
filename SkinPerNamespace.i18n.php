@@ -159,6 +159,13 @@ $messages['pms'] = array(
 	'skinpernamespace-desc' => 'A përmëtt na pel për spassi nominal',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author 555
+ */
+$messages['pt-br'] = array(
+	'skinpernamespace-desc' => 'Permite que cada espaço nominal use um skin diferente',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
