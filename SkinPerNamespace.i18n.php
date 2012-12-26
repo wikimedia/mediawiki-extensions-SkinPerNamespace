@@ -166,6 +166,13 @@ $messages['pt-br'] = array(
 	'skinpernamespace-desc' => 'Permite que cada espaço nominal use um skin diferente',
 );
 
+/** Russian (русский)
+ * @author Ole Yves
+ */
+$messages['ru'] = array(
+	'skinpernamespace-desc' => 'Позволяет ставить разную тему оформления в разных пространствах',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
