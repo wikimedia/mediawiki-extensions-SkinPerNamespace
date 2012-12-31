@@ -173,6 +173,13 @@ $messages['ru'] = array(
 	'skinpernamespace-desc' => 'Позволяет ставить разную тему оформления в разных пространствах',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'skinpernamespace-desc' => 'නාමඅවකාශ-එක බැගින් සම්වලට ඉඩ දේ',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
