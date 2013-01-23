@@ -193,3 +193,10 @@ $messages['tl'] = array(
 $messages['uk'] = array(
 	'skinpernamespace-desc' => 'Дозволяє обирати окремі оформлення для просторів назв',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'skinpernamespace-desc' => '允许每个命名空间的皮肤',
+);
