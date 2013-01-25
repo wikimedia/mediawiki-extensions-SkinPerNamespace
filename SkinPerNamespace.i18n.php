@@ -166,6 +166,13 @@ $messages['pt-br'] = array(
 	'skinpernamespace-desc' => 'Permite que cada espaço nominal use um skin diferente',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'skinpernamespace-desc' => "Permette 'nu scheme per-namespace",
+);
+
 /** Russian (русский)
  * @author Ole Yves
  */
