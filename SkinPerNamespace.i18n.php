@@ -109,6 +109,13 @@ $messages['ja'] = array(
 	'skinpernamespace-desc' => '名前空間ごとに外装を設定できるようにする',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'skinpernamespace-desc' => 'იძლევა სხვადასხვა გაფორმების თემის განთავსების საშუალებას სხვადასხვა სივრცეში',
+);
+
 /** Korean (한국어)
  * @author 아라
  */
