@@ -13,9 +13,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'skinpernamespace-desc' => '{{desc}}',
+	'skinpernamespace-desc' => '{{desc|name=Skin Per Namespace|url=http://www.mediawiki.org/wiki/Extension:SkinPerNamespace}}',
 );
 
 /** Asturian (asturianu)
