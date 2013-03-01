@@ -138,6 +138,13 @@ $messages['lb'] = array(
 	'skinpernamespace-desc' => 'Erméiglecht et een Ausgesinn (skin) pro Nummraum ze benotzen',
 );
 
+/** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
+ */
+$messages['min'] = array(
+	'skinpernamespace-desc' => 'Izinkan kulik per ruang namo',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
