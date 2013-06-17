@@ -222,3 +222,10 @@ $messages['uk'] = array(
 $messages['zh-hans'] = array(
 	'skinpernamespace-desc' => '允许每个命名空间的皮肤',
 );
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'skinpernamespace-desc' => '容許為不同名字空間設置外觀',
+);
