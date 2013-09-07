@@ -160,6 +160,13 @@ $messages['nl'] = array(
 	'skinpernamespace-desc' => 'Maakt een vormgeving per naamruimte mogelijk',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'skinpernamespace-desc' => 'Permet un abilhatge per espaci de noms',
+);
+
 /** Polish (polski)
  * @author BeginaFelicysym
  */
