@@ -49,6 +49,9 @@ $wgSkinPerNamespaceOverrideLoggedIn = true;
 
 /**
  * Hook function for RequestContextCreateSkin
+ * @param IContextSource $context
+ * @param Skin $skin
+ * @return bool
  */
 function efSkinPerPageRequestContextCreateSkin( $context, &$skin ) {
 	global $wgSkinPerNamespace, $wgSkinPerSpecialPage,
@@ -63,7 +66,7 @@ function efSkinPerPageRequestContextCreateSkin( $context, &$skin ) {
 	$skinName = null;
 
 	if ( $ns == NS_SPECIAL ) {
-		list( $canonical, /* $subpage */ ) = SpecialPage::resolveAliasWithSubpage( $title->getDBkey() );
+		list( $canonical, /* $subpage */ ) = SpecialPageFactory::resolveAlias( $title->getDBkey() );
 		if ( isset( $wgSkinPerSpecialPage[$canonical] ) ) {
 			$skinName = $wgSkinPerSpecialPage[$canonical];
 		}
