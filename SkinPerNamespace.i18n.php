@@ -54,6 +54,13 @@ $messages['es'] = array(
 	'skinpernamespace-desc' => 'Permite asignar una apariencia (skin) a cada espacio de nombres',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'skinpernamespace-desc' => 'اجازهٔ پوسته در هر فضای نام',
+);
+
 /** Finnish (suomi)
  * @author Nedergard
  */
