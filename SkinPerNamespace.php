@@ -16,12 +16,12 @@ $wgExtensionCredits['other'][] = array(
 	'path'        => __FILE__,
 	'name'        => 'SkinPerNamespace',
 	'url'         => 'https://www.mediawiki.org/wiki/Extension:SkinPerNamespace',
-	'version'     => '2012-02-18',
+	'version'     => '2014-04-01',
 	'descriptionmsg' => 'skinpernamespace-desc',
 	'author'      => 'Alexandre Emsenhuber',
-	
 );
 
+$wgMessagesDirs['SkinPerNamespace'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SkinPerNamespace'] = dirname( __FILE__ ) . "/SkinPerNamespace.i18n.php";
 
 // Configuration part, you can copy it to your LocalSettings.php and change it
@@ -75,7 +75,7 @@ function efSkinPerPageRequestContextCreateSkin( $context, &$skin ) {
 	if ( $skinName === null && isset( $wgSkinPerNamespace[$ns] ) ) {
 		$skinName = $wgSkinPerNamespace[$ns];
 	}
-	
+
 	if ( $skinName !== null ) {
 		$skin = $skinName;
 	}
