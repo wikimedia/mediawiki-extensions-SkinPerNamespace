@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "skinpernamespace-desc": "名前空間ごとに外装を設定できるようにする"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"skinpernamespace-desc": "名前空間ごとに外装を設定できるようにする"
 }

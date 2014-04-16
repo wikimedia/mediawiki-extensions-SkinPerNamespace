@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "555"
-        ]
-    },
-    "skinpernamespace-desc": "Permite que cada espaço nominal use um skin diferente"
+	"@metadata": {
+		"authors": [
+			"555"
+		]
+	},
+	"skinpernamespace-desc": "Permite que cada espaço nominal use um skin diferente"
 }
