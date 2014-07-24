@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Justincheng12345"
+			"Justincheng12345",
+			"LNDDYL"
 		]
 	},
-	"skinpernamespace-desc": "容許為不同名字空間設置外觀"
+	"skinpernamespace-desc": "容許為不同命名空間設定外觀"
 }
