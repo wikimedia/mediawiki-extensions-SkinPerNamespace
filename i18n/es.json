@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Armando-Martin"
+			"Armando-Martin",
+			"Macofe"
 		]
 	},
-	"skinpernamespace-desc": "Permite asignar una apariencia (skin) a cada espacio de nombres"
+	"skinpernamespace-desc": "Permite asignar una apariencia a cada espacio de nombres"
 }
