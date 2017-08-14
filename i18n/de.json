@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Kghbln"
 		]
 	},
-	"skinpernamespace-desc": "Ermöglicht eine namensraumspezifische Benutzeroberfläche"
+	"skinpernamespace-desc": "Ermöglicht die Nutzung einer anderen Benutzeroberfläche in jedem Namensraum"
 }
