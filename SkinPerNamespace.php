@@ -22,7 +22,6 @@ $wgExtensionCredits['other'][] = array(
 );
 
 $wgMessagesDirs['SkinPerNamespace'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SkinPerNamespace'] = dirname( __FILE__ ) . "/SkinPerNamespace.i18n.php";
 
 // Configuration part, you can copy it to your LocalSettings.php and change it
 // there, *not* here. Also modify it after including this file or you won't see
