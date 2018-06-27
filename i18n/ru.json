@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ole Yves"
+			"Ole Yves",
+			"Stjn"
 		]
 	},
 	"skinpernamespace-desc": "Позволяет ставить разную тему оформления в разных пространствах"
