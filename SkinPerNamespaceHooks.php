@@ -35,6 +35,9 @@ class SkinPerNamespaceHooks {
 		}
 
 		$title = $context->getTitle();
+		if ( $title === null ) {
+			return true;
+		}
 		$ns = $title->getNamespace();
 		$skinName = null;
 
