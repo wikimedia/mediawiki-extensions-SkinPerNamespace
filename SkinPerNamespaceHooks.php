@@ -19,6 +19,9 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
+
+use MediaWiki\MediaWikiServices;
+
 class SkinPerNamespaceHooks {
 	/**
 	 * Hook function for RequestContextCreateSkin
@@ -42,7 +45,16 @@ class SkinPerNamespaceHooks {
 		$skinName = null;
 
 		if ( $ns === NS_SPECIAL ) {
-			list( $canonical, /* $subpage */ ) = SpecialPageFactory::resolveAlias( $title->getDBkey() );
+			if ( class_exists( 'MediaWiki\Special\SpecialPageFactory' ) ) {
+				// MW 1.32+
+				$specialPage = MediaWikiServices::getInstance()
+					->getSpecialPageFactory()
+					->resolveAlias( $title->getDBkey() );
+			} else {
+				$specialPage = SpecialPageFactory::resolveAlias( $title->getDBkey() );
+			}
+			$canonical = $specialPage[0];
+
 			if ( isset( $wgSkinPerSpecialPage[$canonical] ) ) {
 				$skinName = $wgSkinPerSpecialPage[$canonical];
 			}
