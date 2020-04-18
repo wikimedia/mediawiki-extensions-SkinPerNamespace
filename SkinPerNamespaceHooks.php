@@ -26,10 +26,10 @@ class SkinPerNamespaceHooks {
 	/**
 	 * Hook function for RequestContextCreateSkin
 	 * @param IContextSource $context
-	 * @param Skin $skin
+	 * @param Skin &$skin
 	 * @return bool
 	 */
-	static function onSkinPerPageRequestContextCreateSkin( $context, &$skin ) {
+	public static function onSkinPerPageRequestContextCreateSkin( $context, &$skin ) {
 		global $wgSkinPerNamespace, $wgSkinPerSpecialPage,
 			$wgSkinPerNamespaceOverrideLoggedIn;
 
