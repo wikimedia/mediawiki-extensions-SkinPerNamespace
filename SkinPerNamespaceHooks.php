@@ -33,7 +33,7 @@ class SkinPerNamespaceHooks {
 		global $wgSkinPerNamespace, $wgSkinPerSpecialPage,
 			$wgSkinPerNamespaceOverrideLoggedIn;
 
-		if ( !$wgSkinPerNamespaceOverrideLoggedIn && $context->getUser()->isLoggedIn() ) {
+		if ( !$wgSkinPerNamespaceOverrideLoggedIn && $context->getUser()->isRegistered() ) {
 			return true;
 		}
 
