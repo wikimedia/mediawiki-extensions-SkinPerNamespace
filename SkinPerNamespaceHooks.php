@@ -45,14 +45,9 @@ class SkinPerNamespaceHooks {
 		$skinName = null;
 
 		if ( $ns === NS_SPECIAL ) {
-			if ( class_exists( 'MediaWiki\Special\SpecialPageFactory' ) ) {
-				// MW 1.32+
-				$specialPage = MediaWikiServices::getInstance()
-					->getSpecialPageFactory()
-					->resolveAlias( $title->getDBkey() );
-			} else {
-				$specialPage = SpecialPageFactory::resolveAlias( $title->getDBkey() );
-			}
+			$specialPage = MediaWikiServices::getInstance()
+				->getSpecialPageFactory()
+				->resolveAlias( $title->getDBkey() );
 			$canonical = $specialPage[0];
 
 			if ( isset( $wgSkinPerSpecialPage[$canonical] ) ) {
