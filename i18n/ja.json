@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shirayuki"
+			"Shirayuki",
+			"Yaakiyu.jp"
 		]
 	},
-	"skinpernamespace-desc": "名前空間ごとに外装を設定できるようにする"
+	"skinpernamespace-desc": "名前空間ごとにスキンを設定できるようにする"
 }
